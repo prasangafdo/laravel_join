@@ -14,7 +14,9 @@ class usersController extends Controller
      */
     public function index()
     {
-        //
+        $user_details =  User::join('user_roles', 'users.id', '=', 'user_roles.user_id')
+        ->get();
+        return view('users.index', ['user_details'=>$user_details]);
     }
 
     /**
