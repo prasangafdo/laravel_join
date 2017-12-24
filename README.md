@@ -6,3 +6,5 @@ It will retrieve the data from different tables using the foreign key constrains
 It includes select where clauses as well.
 
 Models, Controllers and Migrations aren't configured properly. Consider using the Migrations in the "Laravel_test" repository.
+
+Single join query included in the usersController. Please refer that.
